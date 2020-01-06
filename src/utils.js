@@ -1,11 +1,11 @@
 import tinyreq from 'tinyreq';
 
-export const createOnlineURL = ({ worldName } = {}) => (
-  `https://medivia.online/community/online/${worldName}`
+export const createOnlineURL =  => (
+  `https://ixodus.online/character/whoisonline`
 );
 
 export const createCharacterPage = ({ characterName } = {}) => (
-  `https://medivia.online/community/character/${characterName}`
+  `https://ixodus.online/character/show/${characterName}`
 );
 
 export const requestUrl = (url, parser) => (
